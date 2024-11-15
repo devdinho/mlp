@@ -51,7 +51,7 @@ class TitanicPredictor:
         
         # Dividindo dados em conjuntos de treinamento e teste
         self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(
-            X, y, test_size=0.2, random_state=42
+            X, y, test_size=0.7, random_state=42
         )
         
         # Padronizando os dados
